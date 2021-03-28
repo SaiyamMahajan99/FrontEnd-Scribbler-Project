@@ -1,3 +1,20 @@
+/* BUTTONS */
+
+.topButtons{
+   width: 90px;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: 500;
+    font-size: 90%;
+    background: #0000ff;
+    color: #fff;
+    float: right;   
+    margin:  5px ;               
+   
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
 /* logo */
 .logo-title{
     font-family: 'Satisfy', cursive;
@@ -12,22 +29,7 @@
     font-family: 'Marck Script', cursive;
     margin-left: 10px;
 }
-/* BUTTONS */
-
-.topButtons{
-    position: relative;
-   align-items: center;
-    float: right;
-    width: 100px;
-    height:40px;
-    margin: 2px;
-    padding: 5px;
-    background-color: blue;
-    color: white;
-    font-size: 12px;
-    overflow: hidden;
-
-}
+/*--------------*/
 
 /*  signup model  */
 .Signup_modal{
