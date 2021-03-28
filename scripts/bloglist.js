@@ -1,20 +1,20 @@
 
-var configuration_model=document.getElementsByClassName("Confirmation_box_model")[0];
+var configModel=document.getElementsByClassName("Confirmation_box_model")[0];
 
-var configuration_btn=document.querySelectorAll(".trash");
+var configButton=document.querySelectorAll(".trash");
 
-var configuration_no=document.getElementById("no");
+var configNumber=document.getElementById("no");
 
 
 
 var j;
-for (j = 0; j < configuration_btn.length; j++) {
-    let btn=configuration_btn[j];
+for (j = 0; j < configButton.length; j++) {
+    let btn=configButton[j];
     btn.onclick=function() {
-        configuration_model.style.display="flex";
+        configModel.style.display="flex";
     }
 }
 
-configuration_no.onclick=function () {
-    configuration_model.style.display="none";
+configNumber.onclick=function () {
+    configModel.style.display="none";
 }
